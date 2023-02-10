@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <p>Datos de la incidencia</p>
+
+    <br>
+        <label for="user">Usuario:</label>
+        <div class="mar">
+        <input id="user" type="text" name="procesar-incidencia.php">
+        </div>
+    </br>
+    
+    <br>
+        <label for="Departamento">Departamento</label>
+        <div>
+        <select id="Departamento" name="procesar-incidencia.php">
+            <option selected>Informática</option>
+            <option>Marketing</option>
+            <option>Ventas</option>
+        </select>
+        </div>
+    </br>
+
+        <label for="Descripción:">Descripción:</label>
+        <div id="textarea">
+        <textarea name="procesar-incidencia.php" placeholder="Descbriba la incidencia..."></textarea>
+        </div>
+   
+    <br>
+        <label for="Contraseña:">Contraseña:</label>
+        <div>
+        <input id="pass" type="password" name="procesar-incidencia.php">
+        </div>
+    </br>
+    
+        <p>Botones de Reset y Envio</p>
+
+        <button type="reset">Resetear</button>
+        <button type="submit" onclick="alert ('El tóner de color amarillo está vacío.');">Enviar</button>
+        
+       
+    </form>
+</body>
+</html>
